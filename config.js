@@ -1,0 +1,4 @@
+var config = {
+    NYT_API_KEY: bNFP4131G966GV9hcHErG1bfrO1aIghg,
+    SECRET_KEY: IuTZK0HOBDNVNvOl
+  }
