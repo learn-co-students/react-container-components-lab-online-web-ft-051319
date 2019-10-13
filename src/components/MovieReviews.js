@@ -3,11 +3,12 @@ import React from 'react'
 
 function MovieReviews(props) {
   return (
-      props.reviews.map((review, idx) => {
+      <div className='review-list'>
+      {  props.reviews.map((review, idx) => {
        return (<div className="review" id={idx}>Title: {review.display_title}; Short: {review.summary_short} </div>)
         })
-
-
+      }
+      </div>
      )
     }
 
