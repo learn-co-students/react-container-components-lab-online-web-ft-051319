@@ -32,7 +32,7 @@ class LatestMovieReviewsContainer extends Component {
 
       <div className="latest-movie-reviews">
       <MovieReviews className="review-list" reviews={this.state.reviews} />
-      </div>
+        </div>
     )
   }
 }
