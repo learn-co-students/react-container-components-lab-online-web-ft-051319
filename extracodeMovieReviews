@@ -1,0 +1,36 @@
+function MovieReviews(props) {
+  render() {
+  return (
+    <div className="review-list">
+     props.reviews.map((review, idx) => {
+       return (<div className="review" id={idx}>Title: {review.display_title}; Short: {review.summary_short} </div>)
+        }
+       </div>
+       )
+    }
+
+}
+function MovieReviews(props) {
+  render () {
+    return (
+     <div className="review-list">
+     props.reviews.map((review, idx) => {
+       return (<div className="review" id={idx}>Title: {review.display_title}; Short: {review.summary_short} </div>)
+        }
+       // </div>
+      )
+      </div>
+    )
+
+  }
+}
+
+https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=family&api-key=ok8TtkPdZYdV4VvBm0VxJJsAkqQqRkh4
+
+
+    <MovieReviews reviews={this.state.reviews} />
+    <MovieReviews className="review-list" reviews={this.state.reviews} />
+
+    <MovieReviews reviews={this.state.reviews} />
+    <MovieReviews reviews={this.state.reviews} />
+    if (this.state.searchTerm !== "") {     }
